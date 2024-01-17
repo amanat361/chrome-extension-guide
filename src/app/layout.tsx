@@ -24,10 +24,10 @@ const lexend = localFont({
 export const metadata: Metadata = {
   title: {
     template: '%s - Docs',
-    default: 'CacheAdvance - Never miss the cache again.',
+    default: 'Learn how to create a chrome extension!',
   },
   description:
-    'Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.',
+    'In under 30 minutes you will learn how to make your very own extension with our easy to follow guide!',
 }
 
 export default function RootLayout({

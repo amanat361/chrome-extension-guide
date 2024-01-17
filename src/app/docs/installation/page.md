@@ -8,7 +8,7 @@ nextjs:
 
 ## Introduction
 
-Before diving into the development of the Text Changer Chrome Extension, it's essential to set up a proper development environment. This section will guide you through the installation of necessary tools and the initial setup required to start building your Chrome extension.
+Before we create our own chrome extension, it's essential to set up a proper development environment. This section will guide you through the installation of necessary tools and the initial setup required to start building your Chrome extension.
 
 ## Preparing Your Development Environment
 
