@@ -1,56 +1,32 @@
 export const navigation = [
   {
-    title: 'Introduction',
+    title: 'Getting Started',
     links: [
-      { title: 'Getting started', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
+      { title: 'Home', href: '/' },
+      { title: 'Introduction', href: '/docs/introduction' },
+      { title: 'Initial Setup', href: '/docs/installation' },
     ],
   },
   {
-    title: 'Core concepts',
+    title: 'Extension Setup',
     links: [
-      { title: 'Understanding caching', href: '/docs/understanding-caching' },
-      {
-        title: 'Predicting user behavior',
-        href: '/docs/predicting-user-behavior',
-      },
-      { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
-      {
-        title: 'Introduction to string theory',
-        href: '/docs/introduction-to-string-theory',
-      },
-      { title: 'The butterfly effect', href: '/docs/the-butterfly-effect' },
+      { title: 'Manifest Setup', href: '/docs/manifest' },
+      { title: 'Content Script', href: '/docs/content-script' },
     ],
   },
   {
-    title: 'Advanced guides',
+    title: 'Popup Interface',
     links: [
-      { title: 'Writing plugins', href: '/docs/writing-plugins' },
-      { title: 'Neuralink integration', href: '/docs/neuralink-integration' },
-      { title: 'Temporal paradoxes', href: '/docs/temporal-paradoxes' },
-      { title: 'Testing', href: '/docs/testing' },
-      { title: 'Compile-time caching', href: '/docs/compile-time-caching' },
-      {
-        title: 'Predictive data generation',
-        href: '/docs/predictive-data-generation',
-      },
+      { title: 'Popup CSS', href: '/docs/popup-css' },
+      { title: 'Popup HTML', href: '/docs/popup-html' },
+      { title: 'Popup JS', href: '/docs/popup-js' },
     ],
   },
   {
-    title: 'API reference',
+    title: 'Publishing & Maintenance',
     links: [
-      { title: 'CacheAdvance.predict()', href: '/docs/cacheadvance-predict' },
-      { title: 'CacheAdvance.flush()', href: '/docs/cacheadvance-flush' },
-      { title: 'CacheAdvance.revert()', href: '/docs/cacheadvance-revert' },
-      { title: 'CacheAdvance.regret()', href: '/docs/cacheadvance-regret' },
+      { title: 'Publishing', href: '/docs/publishing' },
+      { title: 'Maintenance', href: '/docs/maintenance' },
     ],
   },
-  {
-    title: 'Contributing',
-    links: [
-      { title: 'How to contribute', href: '/docs/how-to-contribute' },
-      { title: 'Architecture guide', href: '/docs/architecture-guide' },
-      { title: 'Design principles', href: '/docs/design-principles' },
-    ],
-  },
-]
+];
